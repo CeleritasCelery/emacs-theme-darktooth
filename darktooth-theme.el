@@ -24,8 +24,8 @@
 (autothemer-deftheme
  darktooth "From the darkness... it watches"
 
- ((((class color) (min-colors #xFFFFFF)) ;; color column 1 GUI/24bit
-   ((class color) (min-colors #xFF)))    ;; color column 2 Xterm/256
+ ((((class color) (min-colors #xFF)) ;; color column 1 GUI/24bit
+   ((class color) (min-colors #x00)))    ;; color column 2 Xterm/256
 
   (darktooth-dark0_hard      "#1D2021" "#1c1c1c")
   (darktooth-dark0           "#282828" "#262626")
