@@ -457,11 +457,11 @@
   (el-search-other-match                     (:background darktooth-dark_blue))
 
   ;; MODE SUPPORT: avy
-  (avy-lead-face-0                           (:foreground darktooth-bright_blue ))
-  (avy-lead-face-1                           (:foreground darktooth-bright_aqua ))
-  (avy-lead-face-2                           (:foreground darktooth-bright_purple ))
-  (avy-lead-face                             (:foreground darktooth-bright_red ))
-  (avy-background-face                       (:foreground darktooth-dark3 ))
+  (avy-lead-face-0                           (:foreground darktooth-dark0 :background darktooth-bright_blue))
+  (avy-lead-face-1                           (:foreground darktooth-dark0 :background darktooth-bright_aqua))
+  (avy-lead-face-2                           (:foreground darktooth-dark0 :background darktooth-bright_purple))
+  (avy-lead-face                             (:foreground darktooth-dark0 :background darktooth-bright_yellow))
+  (avy-background-face                       (:foreground darktooth-dark3))
   (avy-goto-char-timer-face                  (:inherit 'highlight ))
 
   ;; MODE SUPPORT: popup
