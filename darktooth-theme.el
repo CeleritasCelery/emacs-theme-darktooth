@@ -491,9 +491,10 @@
   (company-scrollbar-bg                      (:foreground nil :background darktooth-dark3))
   (company-tooltip                           (:foreground darktooth-light0_hard :background darktooth-dark1))
   (company-preview-common                    (:inherit 'font-lock-comment-face))
-  (company-tooltip-common                    (:foreground darktooth-light0 :background darktooth-dark1))
+  (company-tooltip-common                    (:foreground darktooth-light0 :background darktooth-dark1 :weight 'bold))
   (company-tooltip-annotation                (:foreground darktooth-bright_blue :background darktooth-dark1))
-  (company-tooltip-common-selection          (:foreground darktooth-light0 :background darktooth-faded_blue))
+  (company-tooltip-annotation-selection      (:foreground darktooth-light0 :background darktooth-faded_blue))
+  (company-tooltip-common-selection          (:foreground darktooth-light0 :background darktooth-faded_blue :weight 'bold))
   (company-tooltip-mouse                     (:foreground darktooth-dark0 :background darktooth-bright_blue))
   (company-tooltip-selection                 (:foreground darktooth-light0 :background darktooth-faded_blue))
 
