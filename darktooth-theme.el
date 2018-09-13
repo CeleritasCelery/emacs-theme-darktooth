@@ -403,6 +403,9 @@
   (org-mode-line-clock-overrun               (:foreground darktooth-black :background darktooth-bright_red))
   (org-ellipsis                              (:foreground darktooth-bright_yellow :underline t))
   (org-footnote                              (:foreground darktooth-faded_aqua :underline t))
+  (org-block                                 (:background darktooth-dark0_soft))
+  (org-block-begin-line                      (:background darktooth-dark1))
+  (org-block-end-line                        (:background darktooth-dark1))
 
   ;; MODE SUPPORT: powerline
   (powerline-active1                         (:background darktooth-dark2 :inherit 'mode-line))
