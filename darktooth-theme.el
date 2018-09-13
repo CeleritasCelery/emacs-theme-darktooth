@@ -790,76 +790,76 @@
  (defface darktooth-modeline-one-active
    `((t
       (:foreground ,darktooth-dark0
-                   :background ,darktooth-dark4
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,darktooth-dark4 :style nil))))
+       :background ,darktooth-dark4
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,darktooth-dark4 :style nil))))
    "darktooth modeline active one")
 
  (defface darktooth-modeline-one-inactive
    `((t
       (:foreground ,darktooth-dark0
-                   :background ,darktooth-dark2
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,darktooth-dark2 :style nil))))
+       :background ,darktooth-dark2
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,darktooth-dark2 :style nil))))
    "darktooth modeline inactive one")
 
  (defface darktooth-modeline-two-active
    `((t
       (:foreground ,darktooth-light2
-                   :background ,darktooth-dark2
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,darktooth-dark2 :style nil))))
+       :background ,darktooth-dark2
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,darktooth-dark2 :style nil))))
    "darktooth modeline active two")
 
  (defface darktooth-modeline-two-inactive
    `((t
       (:foreground ,darktooth-dark1
-                   :background ,darktooth-dark4
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,darktooth-dark4 :style nil))))
+       :background ,darktooth-dark4
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,darktooth-dark4 :style nil))))
    "darktooth modeline inactive two")
 
  (defface darktooth-modeline-three-active
    `((t
       (:foreground ,darktooth-dark_orange
-                   :background ,darktooth-dark0_hard
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,darktooth-dark0_hard :style nil))))
+       :background ,darktooth-dark0_hard
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,darktooth-dark0_hard :style nil))))
    "darktooth modeline inactive three")
 
  (defface darktooth-modeline-three-inactive
    `((t
       (:foreground ,darktooth-muted_orange
-                   :background ,darktooth-dark1
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,darktooth-dark1 :style nil))))
+       :background ,darktooth-dark1
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,darktooth-dark1 :style nil))))
    "darktooth modeline active three")
 
  (defface darktooth-modeline-four-active
    `((t
       (:foreground ,darktooth-black
-                   :background ,darktooth-dark4
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,darktooth-dark4 :style nil))))
+       :background ,darktooth-dark4
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,darktooth-dark4 :style nil))))
    "darktooth modeline active four")
 
  (defface darktooth-modeline-four-inactive
    `((t
       (:foreground ,darktooth-dark4
-                   :background ,darktooth-black
-                   :height 120
-                   :inverse-video nil
-                   :box (:line-width 6 :color ,darktooth-black :style nil))))
+       :background ,darktooth-black
+       :height 120
+       :inverse-video nil
+       :box (:line-width 6 :color ,darktooth-black :style nil))))
    "darktooth modeline inactive four")
 
-  (custom-theme-set-variables 'darktooth
+ (custom-theme-set-variables 'darktooth
                              `(pos-tip-foreground-color ,darktooth-light0_hard)
                              `(pos-tip-background-color ,darktooth-dark_aqua)
                              `(ansi-color-names-vector [,darktooth-dark0_soft
