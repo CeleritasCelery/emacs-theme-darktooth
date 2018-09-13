@@ -559,7 +559,7 @@
   (helm-selection                            (:foreground darktooth-white :background darktooth-dark2))
   (helm-selection-line                       (:foreground darktooth-white :background darktooth-dark2))
   (helm-separator                            (:foreground darktooth-faded_red))
-  (helm-source-header                        (:foreground darktooth-light2 :background darktooth-dark1))
+  (helm-source-header                        (:foreground darktooth-light2 :background darktooth-dark1 :height 150))
   (helm-visible-mark                         (:foreground darktooth-black :background darktooth-light3))
 
   ;; MODE SUPPORT: column-marker
