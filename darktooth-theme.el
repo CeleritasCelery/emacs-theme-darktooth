@@ -604,11 +604,11 @@
   (smerge-refine-changed                     (:background nil :foreground nil))
 
   ;; MODE SUPPORT: git-gutter
-  (git-gutter:added                         (:foreground darktooth-faded_green :background darktooth-muted_green ))
-  (git-gutter:deleted                       (:foreground darktooth-faded_red :background darktooth-muted_red ))
-  (git-gutter:modified                      (:foreground darktooth-faded_purple :background darktooth-muted_purple ))
-  (git-gutter:separator                     (:foreground darktooth-faded_cyan :background darktooth-muted_cyan ))
-  (git-gutter:unchanged                     (:foreground darktooth-faded_yellow :background darktooth-muted_yellow ))
+  (git-gutter:added                         (:foreground darktooth-bright_green  :background darktooth-dark_green ))
+  (git-gutter:deleted                       (:foreground darktooth-bright_red    :background darktooth-dark_red ))
+  (git-gutter:modified                      (:foreground darktooth-bright_purple :background darktooth-dark_purple ))
+  (git-gutter:separator                     (:foreground darktooth-bright_cyan   :background darktooth-dark_cyan ))
+  (git-gutter:unchanged                     (:foreground darktooth-bright_yellow :background darktooth-dark_yellow ))
 
   ;; MODE SUPPORT: git-gutter-fr
   (git-gutter-fr:added                      (:inherit 'git-gutter:added))
