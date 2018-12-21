@@ -772,6 +772,20 @@
   (evil-ex-substitute-replacement            (:inherit 'magit-diff-added))
   (evil-ex-substitute-matches                (:inherit 'magit-diff-removed))
 
+  ;; MODE SUPPORT: ediff
+  (ediff-even-diff-A (:background darktooth-dark2))
+  (ediff-even-diff-B (:inherit 'ediff-even-diff-A))
+  (ediff-even-diff-C (:inherit 'ediff-even-diff-A))
+  (ediff-odd-diff-A (:inherit 'ediff-even-diff-A))
+  (ediff-odd-diff-B (:inherit 'ediff-even-diff-A))
+  (ediff-odd-diff-C (:inherit 'ediff-even-diff-A))
+  (ediff-current-diff-A (:inherit 'highlight))
+  (ediff-current-diff-B (:inherit 'ediff-current-diff-A))
+  (ediff-current-diff-C (:inherit 'ediff-current-diff-A))
+  (ediff-fine-diff-A (:background darktooth-faded_yellow))
+  (ediff-fine-diff-B (:inherit 'ediff-fine-diff-A))
+  (ediff-fine-diff-C (:inherit 'ediff-fine-diff-A))
+
   ;; MODE SUPPORT: erc
   (erc-action-face                           (:inherit 'erc-default-face))
   (erc-bold-face                             (:weight 'bold))
