@@ -768,6 +768,10 @@
   ;; MODE SUPPORT: eldoc
   (eldoc-highlight-function-argument         (:foreground darktooth-aquamarine4 :weight 'bold))
 
+  ;; MODE SUPPORT: evil-ex
+  (evil-ex-substitute-replacement            (:inherit 'magit-diff-added))
+  (evil-ex-substitute-matches                (:inherit 'magit-diff-removed))
+
   ;; MODE SUPPORT: erc
   (erc-action-face                           (:inherit 'erc-default-face))
   (erc-bold-face                             (:weight 'bold))
