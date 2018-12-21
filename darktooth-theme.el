@@ -169,6 +169,8 @@
   (font-lock-variable-name-face                      (:foreground darktooth-aquamarine4))
   (font-lock-type-face                               (:foreground darktooth-bright_aqua))
   (font-lock-warning-face                            (:foreground darktooth-neutral_red :bold t))
+  (font-lock-regexp-grouping-construct               (:inherit 'font-lock-constant-face :bold t))
+  (font-lock-regexp-grouping-backslash               (:inherit 'font-lock-constant-face))
 
   ;; MODE SUPPORT: which-key
   (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
