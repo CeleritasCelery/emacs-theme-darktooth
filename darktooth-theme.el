@@ -133,7 +133,7 @@
   (darktooth-turquoise4      "#61ACBB" "turquoise4"))
 
  ((default                                   (:foreground darktooth-light0 :background darktooth-dark0))
-  (cursor                                    (:background darktooth-light0))
+  (cursor                                    (:foreground darktooth-dark0 :background darktooth-light0))
   (link                                      (:foreground darktooth-bright_blue :underline t))
   (link-visited                              (:foreground darktooth-bright_blue :underline nil))
 
@@ -588,14 +588,16 @@
   (hydra-face-teal                           (:foreground darktooth-faded_cyan))
 
   ;; MODE SUPPORT: ivy
-  (ivy-current-match                         (:foreground darktooth-light0 :background darktooth-faded_blue))
+  (ivy-current-match                         (:background darktooth-faded_blue))
+  (ivy-highlight-face                        (:foreground darktooth-neutral_yellow))
   (ivy-minibuffer-match-face-1               (:background darktooth-dark1))
-  (ivy-minibuffer-match-face-2               (:background darktooth-dark2))
+  (ivy-minibuffer-match-face-2               (:background darktooth-muted_yellow))
   (ivy-minibuffer-match-face-3               (:background darktooth-faded_aqua))
   (ivy-minibuffer-match-face-4               (:background darktooth-faded_purple))
   (ivy-confirm-face                          (:foreground darktooth-bright_green))
   (ivy-match-required-face                   (:foreground darktooth-bright_red))
   (ivy-remote                                (:foreground darktooth-neutral_blue))
+  (ivy-cursor                                (:inherit 'cursor))
 
   ;; MODE SUPPORT: smerge
   (smerge-upper                              (:background darktooth-mid_purple))
