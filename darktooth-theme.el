@@ -380,10 +380,10 @@
   (org-formula                               (:foreground darktooth-bright_yellow))
   (org-headline-done                         (:foreground darktooth-bright_green))
   (org-hide                                  (:foreground darktooth-dark0))
-  (org-level-1                               (:foreground darktooth-bright_orange :height 180))
-  (org-level-2                               (:foreground darktooth-bright_green :height 150))
-  (org-level-3                               (:foreground darktooth-bright_blue :height 140))
-  (org-level-4                               (:foreground darktooth-bright_yellow :height 130))
+  (org-level-1                               (:foreground darktooth-bright_orange :height 1.7))
+  (org-level-2                               (:foreground darktooth-bright_green :height 1.5))
+  (org-level-3                               (:foreground darktooth-bright_blue :height 1.3))
+  (org-level-4                               (:foreground darktooth-bright_yellow :height 1.1))
   (org-level-5                               (:foreground darktooth-faded_aqua))
   (org-level-6                               (:foreground darktooth-bright_green))
   (org-level-7                               (:foreground darktooth-bright_red))
@@ -448,7 +448,7 @@
   (show-paren-mismatch                       (:foreground darktooth-light0_hard :background darktooth-faded_red))
 
   ;; MODE SUPPORT: anzu
-  (anzu-mode-line                            (:foreground darktooth-light0 :height 100 :background darktooth-faded_blue))
+  (anzu-mode-line                            (:foreground darktooth-light0 :height 1.0 :background darktooth-faded_blue))
   (anzu-match-1                              (:foreground darktooth-dark0 :background darktooth-bright_green))
   (anzu-match-2                              (:foreground darktooth-dark0 :background darktooth-bright_yellow))
   (anzu-match-3                              (:foreground darktooth-dark0 :background darktooth-bright_cyan))
