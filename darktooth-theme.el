@@ -437,9 +437,9 @@
   (sml/position-percentage                   (:foreground darktooth-faded_aqua))
 
   ;; Matches and Isearch
-  (lazy-highlight                            (:foreground darktooth-light0 :background darktooth-dark2))
+  (lazy-highlight                            (:background darktooth-dark2))
   (highlight                                 (:foreground darktooth-light0_hard :background darktooth-faded_blue))
-  (match                                     (:foreground darktooth-light0 :background darktooth-dark2))
+  (match                                     (:background darktooth-dark2))
 
   ;; MODE SUPPORT: isearch
   (isearch                                   (:foreground darktooth-light0 :background darktooth-faded_aqua))
