@@ -402,7 +402,6 @@
   (org-warning                               (:foreground darktooth-bright_red :weight 'bold :underline nil :bold t))
   (org-column                                (:background darktooth-dark0))
   (org-column-title                          (:background darktooth-dark0_hard :underline t :weight 'bold))
-  (org-mode-line-clock                       (:foreground darktooth-light2 :background darktooth-dark0))
   (org-mode-line-clock-overrun               (:foreground darktooth-black :background darktooth-bright_red))
   (org-ellipsis                              (:foreground darktooth-bright_yellow :underline t))
   (org-footnote                              (:foreground darktooth-faded_aqua :underline t))
