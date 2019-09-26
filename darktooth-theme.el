@@ -409,6 +409,9 @@
   (org-block-begin-line                      (:background darktooth-dark1 :foreground darktooth-dark4))
   (org-block-end-line                        (:inherit 'org-block-begin-line))
 
+  ;; MODE SUPPORT: table.el
+  (table-cell                                (:background darktooth-faded_blue ))
+
   ;; MODE SUPPORT: powerline
   (powerline-active1                         (:background darktooth-dark2 :inherit 'mode-line))
   (powerline-active2                         (:background darktooth-dark1 :inherit 'mode-line))
