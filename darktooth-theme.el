@@ -317,6 +317,9 @@
   (embrace-help-key-face                     (:weight 'bold darktooth-bright_green))
   (embrace-help-mark-func-face               (:foreground darktooth-bright_cyan))
 
+  ;; MODE SUPPORT: helpful
+  (helpful-heading                           (:foreground darktooth-sienna :height 180))
+
   ;; MODE SUPPORT: ag (The Silver Searcher)
   (ag-hit-face                               (:foreground darktooth-neutral_blue))
   (ag-match-face                             (:foreground darktooth-neutral_red))
