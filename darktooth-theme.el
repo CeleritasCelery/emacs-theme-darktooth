@@ -221,9 +221,6 @@
   (rainbow-delimiters-depth-7-face           (:foreground darktooth-delimiter-three))
   (rainbow-delimiters-depth-8-face           (:foreground darktooth-delimiter-four))
   (rainbow-delimiters-depth-9-face           (:foreground darktooth-delimiter-one))
-  (rainbow-delimiters-depth-10-face          (:foreground darktooth-delimiter-two))
-  (rainbow-delimiters-depth-11-face          (:foreground darktooth-delimiter-three))
-  (rainbow-delimiters-depth-12-face          (:foreground darktooth-delimiter-four))
   (rainbow-delimiters-unmatched-face         (:foreground darktooth-light0 :background nil))
 
   ;; MODE SUPPORT: rainbow-identifiers
