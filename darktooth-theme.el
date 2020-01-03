@@ -413,6 +413,9 @@
   ;; MODE SUPPORT: table.el
   (table-cell                                (:background darktooth-faded_blue ))
 
+  ;; MODE SUPPORT: csv-mode
+  (csv-separator-face                         (:background darktooth-muted_purple :foreground darktooth-bright_purple))
+
   ;; MODE SUPPORT: powerline
   (powerline-active1                         (:background darktooth-dark2 :inherit 'mode-line))
   (powerline-active2                         (:background darktooth-dark1 :inherit 'mode-line))
