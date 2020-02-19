@@ -388,7 +388,7 @@
   (org-level-6                               (:foreground darktooth-bright_green))
   (org-level-7                               (:foreground darktooth-bright_red))
   (org-level-8                               (:foreground darktooth-bright_blue))
-  (org-link                                  (:foreground darktooth-bright_yellow :underline t))
+  (org-link                                  (:background darktooth-dark_aqua :bold t))
   (org-scheduled                             (:foreground darktooth-bright_green))
   (org-scheduled-previously                  (:foreground darktooth-bright_red))
   (org-scheduled-today                       (:foreground darktooth-bright_blue))
