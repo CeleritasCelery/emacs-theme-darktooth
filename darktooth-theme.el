@@ -263,10 +263,10 @@
   (highlight-symbol-face                     (:foreground darktooth-neutral_purple))
 
   ;; MODE SUPPORT: hi-lock
-  (hi-blue                                   (:foreground darktooth-dark0_hard :background darktooth-bright_blue ))
-  (hi-green                                  (:foreground darktooth-dark0_hard :background darktooth-bright_green ))
-  (hi-pink                                   (:foreground darktooth-dark0_hard :background darktooth-bright_purple ))
-  (hi-yellow                                 (:foreground darktooth-dark0_hard :background darktooth-bright_yellow ))
+  (hi-blue                                   (:foreground darktooth-light0 :background darktooth-bright_blue ))
+  (hi-green                                  (:foreground darktooth-light0 :background darktooth-neutral_green ))
+  (hi-pink                                   (:foreground darktooth-light0 :background darktooth-bright_purple ))
+  (hi-yellow                                 (:foreground darktooth-light0 :background darktooth-faded_yellow ))
   (hi-blue-b                                 (:foreground darktooth-bright_blue :bold t ))
   (hi-green-b                                (:foreground darktooth-bright_green :bold t ))
   (hi-red-b                                  (:foreground darktooth-bright_red :bold t  ))
