@@ -136,6 +136,7 @@
   (cursor                                    (:foreground darktooth-dark0 :background darktooth-light0))
   (link                                      (:foreground darktooth-bright_blue :underline t))
   (link-visited                              (:foreground darktooth-bright_blue :underline nil))
+  (mouse                                     (:background darktooth-light0_hard))
 
   (mode-line                                 (:foreground darktooth-light1 :background darktooth-dark1 :box nil))
   (mode-line-inactive                        (:foreground darktooth-light4 :background darktooth-dark0_hard :box nil))
