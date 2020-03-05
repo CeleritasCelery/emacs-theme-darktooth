@@ -394,7 +394,7 @@
   (org-scheduled-today                       (:foreground darktooth-bright_blue))
   (org-sexp-date                             (:foreground darktooth-bright_blue :underline t))
   (org-special-keyword                       (:inherit 'font-lock-comment-face))
-  (org-table                                 (:foreground darktooth-bright_green))
+  (org-table                                 (:foreground darktooth-bright_aqua))
   (org-tag                                   (:bold t :weight 'bold))
   (org-time-grid                             (:foreground darktooth-bright_orange))
   (org-todo                                  (:foreground darktooth-bright_red :weight 'bold :bold t))
