@@ -159,7 +159,7 @@
   (compilation-mode-line-fail                (:foreground darktooth-neutral_red))
   (error                                     (:foreground darktooth-bright_red :bold t))
   (success                                   (:foreground darktooth-neutral_green :bold t))
-  (warning                                   (:foreground darktooth-bright_yellow :bold t))
+  (warning                                   (:foreground darktooth-bright_orange :bold t))
 
   ;; Built-in syntax
   (font-lock-builtin-face                            (:foreground darktooth-bright_orange))
