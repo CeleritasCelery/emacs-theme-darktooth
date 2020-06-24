@@ -417,6 +417,8 @@
   ;; MODE SUPPORT: csv-mode
   (csv-separator-face                         (:foreground darktooth-bright_red))
 
+  ;; MODE SUPPORT: comint
+  (comint-highlight-prompt                   (:background darktooth-dark_aqua))
 
   ;; MODE SUPPORT: powerline
   (powerline-active1                         (:background darktooth-dark2 :inherit 'mode-line))
