@@ -389,7 +389,7 @@
   (org-level-6                               (:foreground darktooth-bright_green))
   (org-level-7                               (:foreground darktooth-bright_red))
   (org-level-8                               (:foreground darktooth-bright_blue))
-  (org-link                                  (:background darktooth-dark_aqua :bold t))
+  (org-link                                  (:foreground darktooth-bright_blue :bold t))
   (org-scheduled                             (:foreground darktooth-bright_green))
   (org-scheduled-previously                  (:foreground darktooth-bright_red))
   (org-scheduled-today                       (:foreground darktooth-bright_blue))
@@ -410,6 +410,9 @@
   (org-block-begin-line                      (:background darktooth-dark0_soft :foreground darktooth-dark3))
   (org-block-end-line                        (:inherit 'org-block-begin-line))
   (org-mode-line-clock                       (:inherit 'mode-line))
+
+  ;; MODE SUPPORT: org-roam
+  (org-roam-link                             (:foreground darktooth-bright_aqua :bold t))
 
   ;; MODE SUPPORT: table.el
   (table-cell                                (:background darktooth-faded_blue ))
