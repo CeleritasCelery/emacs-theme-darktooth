@@ -714,6 +714,17 @@
   (term-default-fg-color                     (:foreground darktooth-light0))
   (term-default-bg-color                     (:background darktooth-dark0))
 
+  (ansi-color-black                          (:foreground darktooth-dark1))
+  (ansi-color-blue                           (:foreground darktooth-neutral_blue))
+  (ansi-color-cyan                           (:foreground darktooth-neutral_cyan))
+  (ansi-color-green                          (:foreground darktooth-neutral_green))
+  (ansi-color-magenta                        (:foreground darktooth-neutral_purple))
+  (ansi-color-red                            (:foreground darktooth-neutral_red))
+  (ansi-color-white                          (:foreground darktooth-light1))
+  (ansi-color-yellow                         (:foreground darktooth-neutral_yellow))
+  (ansi-default-fg-color                     (:foreground darktooth-light0))
+  (ansi-default-bg-color                     (:background darktooth-dark0))
+
   ;; MODE SUPPORT: Elfeed
   (elfeed-search-date-face                   (:foreground darktooth-muted_cyan))
   (elfeed-search-feed-face                   (:foreground darktooth-faded_cyan))
