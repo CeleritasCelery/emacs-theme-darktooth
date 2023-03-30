@@ -200,6 +200,9 @@
   (tldr-title                                (:foreground darktooth-bright_red :bold t :height 1.2))
   (tldr-introduction                         (:inherit 'font-lock-comment-face :slant 'italic))
 
+  ;; MODE SUPPORT: treesitter
+  (tree-sitter-hl-face:operator              (:inherit 'default))
+
   ;; MODE SUPPORT: whitespace-mode
   (whitespace-space                          (:foreground darktooth-dark4 :background darktooth-dark0))
   (whitespace-hspace                         (:foreground darktooth-dark4 :background darktooth-dark0))
@@ -209,7 +212,7 @@
   (whitespace-line                           (:foreground darktooth-neutral_red :background darktooth-dark1))
   (whitespace-space-before-tab               (:foreground darktooth-dark4 :background darktooth-dark0))
   (whitespace-indentation                    (:foreground darktooth-dark4 :background darktooth-dark0))
-  (whitespace-empty                          (:foreground nil :background nil))
+  (whitespace-empty                          (:foreground nil :background 'unspecified))
   (whitespace-space-after-tab                (:foreground darktooth-dark4 :background darktooth-dark0))
 
   ;; MODE SUPPORT: rainbow-delimiters
@@ -222,7 +225,7 @@
   (rainbow-delimiters-depth-7-face           (:foreground darktooth-delimiter-three))
   (rainbow-delimiters-depth-8-face           (:foreground darktooth-delimiter-four))
   (rainbow-delimiters-depth-9-face           (:foreground darktooth-delimiter-one))
-  (rainbow-delimiters-unmatched-face         (:foreground darktooth-light0 :background nil))
+  (rainbow-delimiters-unmatched-face         (:foreground darktooth-light0 :background 'unspecified))
 
   ;; MODE SUPPORT: rainbow-identifiers
   (rainbow-identifiers-identifier-1          (:foreground darktooth-identifiers-1))
@@ -327,10 +330,10 @@
   (ripgrep-match-face                        (:inherit 'ag-match-face))
 
   ;; MODE SUPPORT: diff
-  (diff-changed                              (:foreground darktooth-light1 :background nil))
-  (diff-added                                (:foreground darktooth-neutral_green :background nil))
+  (diff-changed                              (:foreground darktooth-light1 :background 'unspecified))
+  (diff-added                                (:foreground darktooth-neutral_green :background 'unspecified))
   (diff-refine-added                         (:foreground darktooth-bright_green :background darktooth-muted_green))
-  (diff-removed                              (:foreground darktooth-neutral_red :background nil))
+  (diff-removed                              (:foreground darktooth-neutral_red :background 'unspecified))
   (diff-refine-removed                       (:foreground darktooth-bright_red :background darktooth-muted_red))
 
   ;; MODE SUPPORT: diff-indicator
@@ -346,26 +349,26 @@
   (js2-warning                               (:underline (:color darktooth-bright_yellow :style 'wave)))
   (js2-error                                 (:underline (:color darktooth-bright_red :style 'wave)))
   (js2-external-variable                     (:underline (:color darktooth-bright_aqua :style 'wave)))
-  (js2-jsdoc-tag                             (:foreground darktooth-medium :background nil))
-  (js2-jsdoc-type                            (:foreground darktooth-light4 :background nil))
-  (js2-jsdoc-value                           (:foreground darktooth-light3 :background nil))
-  (js2-function-param                        (:foreground darktooth-bright_aqua :background nil))
-  (js2-function-call                         (:foreground darktooth-bright_blue :background nil))
-  (js2-instance-member                       (:foreground darktooth-bright_orange :background nil))
-  (js2-private-member                        (:foreground darktooth-faded_yellow :background nil))
-  (js2-private-function-call                 (:foreground darktooth-faded_aqua :background nil))
-  (js2-jsdoc-html-tag-name                   (:foreground darktooth-light4 :background nil))
-  (js2-jsdoc-html-tag-delimiter              (:foreground darktooth-light3 :background nil))
+  (js2-jsdoc-tag                             (:foreground darktooth-medium :background 'unspecified))
+  (js2-jsdoc-type                            (:foreground darktooth-light4 :background 'unspecified))
+  (js2-jsdoc-value                           (:foreground darktooth-light3 :background 'unspecified))
+  (js2-function-param                        (:foreground darktooth-bright_aqua :background 'unspecified))
+  (js2-function-call                         (:foreground darktooth-bright_blue :background 'unspecified))
+  (js2-instance-member                       (:foreground darktooth-bright_orange :background 'unspecified))
+  (js2-private-member                        (:foreground darktooth-faded_yellow :background 'unspecified))
+  (js2-private-function-call                 (:foreground darktooth-faded_aqua :background 'unspecified))
+  (js2-jsdoc-html-tag-name                   (:foreground darktooth-light4 :background 'unspecified))
+  (js2-jsdoc-html-tag-delimiter              (:foreground darktooth-light3 :background 'unspecified))
 
   ;; MODE SUPPORT: haskell
   (haskell-interactive-face-compile-warning  (:underline (:color darktooth-bright_yellow :style 'wave)))
   (haskell-interactive-face-compile-error    (:underline (:color darktooth-bright_red :style 'wave)))
-  (haskell-interactive-face-garbage          (:foreground darktooth-dark4 :background nil))
-  (haskell-interactive-face-prompt           (:foreground darktooth-light0 :background nil))
-  (haskell-interactive-face-result           (:foreground darktooth-light3 :background nil))
-  (haskell-literate-comment-face             (:foreground darktooth-light0 :background nil))
-  (haskell-pragma-face                       (:foreground darktooth-medium :background nil))
-  (haskell-constructor-face                  (:foreground darktooth-neutral_aqua :background nil))
+  (haskell-interactive-face-garbage          (:foreground darktooth-dark4 :background 'unspecified))
+  (haskell-interactive-face-prompt           (:foreground darktooth-light0 :background 'unspecified))
+  (haskell-interactive-face-result           (:foreground darktooth-light3 :background 'unspecified))
+  (haskell-literate-comment-face             (:foreground darktooth-light0 :background 'unspecified))
+  (haskell-pragma-face                       (:foreground darktooth-medium :background 'unspecified))
+  (haskell-constructor-face                  (:foreground darktooth-neutral_aqua :background 'unspecified))
 
   ;; MODE SUPPORT: org-mode
   (org-agenda-date-today                     (:foreground darktooth-light2 :slant 'italic :weight 'bold))
@@ -490,16 +493,16 @@
   (ac-dabbrev-selection-face                 (:inherit 'popup-menu-selection-face))
 
   ;; MODE SUPPORT: sh mode
-  (sh-heredoc                                (:foreground darktooth-darkslategray4 :background nil))
-  (sh-quoted-exec                            (:foreground darktooth-darkslategray4 :background nil))
+  (sh-heredoc                                (:foreground darktooth-darkslategray4 :background 'unspecified))
+  (sh-quoted-exec                            (:foreground darktooth-darkslategray4 :background 'unspecified))
 
   ;; MODE SUPPORT: company
   (company-echo                              (:inherit 'company-echo-common))
-  (company-echo-common                       (:foreground darktooth-bright_blue :background nil))
+  (company-echo-common                       (:foreground darktooth-bright_blue :background 'unspecified))
   (company-preview-common                    (:underline darktooth-light1))
   (company-preview                           (:inherit 'company-preview-common))
   (company-preview-search                    (:inherit 'company-preview-common))
-  (company-template-field                    (:foreground darktooth-bright_blue :background nil :underline darktooth-dark_blue))
+  (company-template-field                    (:foreground darktooth-bright_blue :background 'unspecified :underline darktooth-dark_blue))
   (company-scrollbar-fg                      (:foreground nil :background darktooth-dark2))
   (company-scrollbar-bg                      (:foreground nil :background darktooth-dark3))
   (company-tooltip                           (:foreground darktooth-light0_hard :background darktooth-dark1))
@@ -616,7 +619,7 @@
   (smerge-markers                            (:background darktooth-dark0_soft))
   (smerge-refined-added                      (:background darktooth-dark_green))
   (smerge-refined-removed                    (:background darktooth-dark_red))
-  (smerge-refine-changed                     (:background nil :foreground nil))
+  (smerge-refine-changed                     (:background 'unspecified :foreground nil))
 
   ;; MODE SUPPORT: git-gutter
   (git-gutter:added                         (:foreground darktooth-bright_green))
@@ -893,7 +896,7 @@
                                                         ,darktooth-neutral_purple
                                                         ,darktooth-neutral_cyan
                                                         ,darktooth-light1])
-			     `(pdf-view-midnight-colors '(,darktooth-light0 . ,darktooth-dark0))))
+			                 `(pdf-view-midnight-colors '(,darktooth-light0 . ,darktooth-dark0))))
 
 (defun darktooth-modeline-one ()
   "Optional modeline style one for darktooth."
