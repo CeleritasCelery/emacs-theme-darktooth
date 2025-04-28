@@ -1,3 +1,7 @@
+> Hi all, Please consider donating to this or any of my many of opensource projects.
+> 
+> <a href='https://ko-fi.com/F1F714HTLD' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 [![MELPA](http://stable.melpa.org/packages/darktooth-theme-badge.svg)](http://stable.melpa.org/#/darktooth-theme) [![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
 
 ![](palette-images/header.png)
@@ -8,11 +12,20 @@ a theme for Emacs
 
 Darktooth is easily installed via MELPA.  [Read more here for MELPA setup details](http://melpa.org/#/getting-started)
 
-When your Emacs is setup to use MELPA do this:
+When your Emacs is setup to use MELPA, do this:
 
 ```
 M-x package-install darktooth-theme
 ```
+
+Darktooth now comes with 2 additional variations, `darktooth-dark` and `arkdooth-darker` to complement the original `darktooth`.
+
+You will need to enable each of the three theme variations, using `(load-theme theme-name t)`, or use:
+
+```
+M-x load-theme RET theme-name RET
+```
+And respond to Emacs prompts to enable the theme. (TODO: Screnshots of the dark and darker variations.)
 
 ## Modes supported
 
@@ -122,41 +135,41 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 **Darktooth modeline - screenshot**
 
-![](darktooth-modeline.png)
+![](screenshots/darktooth-modeline.png)
 
 ### Screenshots
 
 ##### Popup Menu
 
-![](darktooth-popup-menu.png)
+![](screenshots/darktooth-popup-menu.png)
 
 ##### Popup Tip
 
-![](darktooth-popup-tip.png)
+![](screenshots/darktooth-popup-tip.png)
 
 ##### Emacs Lisp
 
-![](darktooth-emacslisp.png)
+![](screenshots/darktooth-emacslisp.png)
 
 ##### CoffeeScript
 
-![](darktooth-coffee.png)
+![](screenshots/darktooth-coffee.png)
 
 ##### Java
 
-![](darktooth-java.png)
+![](screenshots/darktooth-java.png)
 
 ##### XML
 
-![](darktooth-xml.png)
+![](screenshots/darktooth-xml.png)
 
 ##### Dired
 
-![](darktooth-dired.png)
+![](screenshots/darktooth-dired.png)
 
 ##### Terminal (xterm256 / iTerm)
 
-![](darktooth-terminal.png)
+![](screenshots/darktooth-terminal.png)
 
 Inspired by:
 
